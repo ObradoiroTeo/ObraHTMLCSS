@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * Este código css esta implementado en el header de todas las páginas del sitio web.
+ */
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #448aff;
+}
+
+.logo {
+  flex: 25%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.menu {
+  flex: 50%;
+  color: white;
+  text-align: center;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+  font-weight: 550;
+}
+
+.menu .separador {
+  border-right: solid #0000ff;
+  padding-right: 5px;
+}
+/*
+ * La clase .empty es para crear un elemento flex que ayude
+ * a centrar el menú en el centro del header.
+ */
+.empty {
+  flex: 25%;
+}
