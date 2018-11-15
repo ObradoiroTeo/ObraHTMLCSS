@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  align-content: stretch;
+  border: ;
+}
+
+.navigate-button {
+  color: white;
+  border-radius: 6px;
+  border: solid blue;
+  border-width: 2px;
+  background-color: #1a6eff;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 0px;
+}
+.navigate-button:hover {
+  background-color: #0a4fc2;
+  border: solid #0a4fc2;
+}
+
+.navigate-button:active {
+  background-color: #083a91;
+  border: solid #083a91;
+}
