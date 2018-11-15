@@ -68,13 +68,13 @@
   display: flex;
 }
 
-.avisoNotif {
+.aviso-notificacion {
   flex: 50%;
   color: white;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
-.tituloDerecha {
+.titulo-derecha {
   flex: 25%;
   align-items: flex-end;
   padding-right: 15px;
@@ -87,7 +87,7 @@
   /*border: solid;*/
 }
 
-.butMain {
+.but-main {
   max-width: 200px;
   margin: 5px 0 5px 0;
 }
@@ -111,24 +111,24 @@
   border: solid #083a91;
 }
 
-.informeTeo {
+.informe-teo {
   flex: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.informeTeo img {
+.informe-teo img {
   height: 150px;
   width: 150px;
 }
 
-.informeTeo p {
+.informe-teo p {
   display: flex;
   flex-direction: column;
 }
 
-.infoAnchor {
+.info-anchor {
   text-decoration: none;
   color: red;
   font-size: 32px;
@@ -163,7 +163,7 @@
   font-size: 19px;
 }
 
-.imgCalendario {
+.img-calendario {
   height: 100%;
   width: 100%;
 }
@@ -174,6 +174,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 19px;
   flex: 100%;
+  margin-left: 15px;
 }
 
 .parte-de-abajo {
@@ -181,17 +182,18 @@
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 19px;
+  margin-left: 15px;
 
   flex: 100%;
 }
 
 /* margenes y texto justificado para las notificaciones */
 .noticia {
-  padding: 0 20px 8px 0;
+  padding: 0 30px 8px 0;
   text-align: justify;
 }
 
-.eventosDestacados {
+.eventos-destacados {
   background-color: #448aff;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -224,13 +226,13 @@
 .date {
   float: right;
 }
-.imgEvent {
+.img-event {
   height: 250px;
   width: 100%;
   border: solid black;
 }
 
-.verTodos {
+.ver-todos {
   float: right;
   font-size: 20px;
 }
