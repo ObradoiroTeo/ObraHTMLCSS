@@ -7,3 +7,7 @@ Cambios na cabeceira do sitio web: Tomamos a decisión de cambiar o inicio da ca
 ## Eliminar breadcrumbs
 
 Cambios na cabeceira do sitio web: Tomamos a decisión de eliminar o menú "breadcrumbs" (menú estas aquí.) pola razón de que está mal situado según os estandares internacionais (World Wide Web Consortium (W3C)) no referente a situación e colocación dos elementos de navegación nunha páxina web. Ademais non temos profundidade nos menús. Son solo 5 páxinas diferentes. Os breadcrumbs carece de sentido.
+
+## Cambio en la nomenclatura de las secciones
+
+Cambio en las denominaciones de las secciones "Cultural" y "Deportivos" que pasarán a llamarse "Cultura" y "Deportes". En la web ya estará bien indicado para el usuario que se está tratando con eventos, creemos que el apelativo formado con el adjetivo no es la más correcta y en este caso, se debe usar una denominación más genérica con el sustantivo.
