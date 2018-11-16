@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * Este código css esta implementado en el header de todas las páginas del sitio web.
+ */
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #448aff;
+}
+
+.logo {
+  flex: 25%;
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.menu {
+  flex: 50%;
+  color: white;
+  text-align: center;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+  font-weight: 550;
+}
+
+.menu .separador {
+  border-right: solid #0000ff;
+  padding-right: 5px;
+}
+/*
+ * La clase .empty es para crear un elemento flex que ayude
+ * a centrar el menú en el centro del header.
+ */
+.empty {
+  flex: 25%;
+}
+
+/* 
+ * Código css que da estilo a la primera sección del main
+ * que corresponde con los enlaces
+ */
+.primera-cabecera {
+  display: flex;
+  background-color: lightgrey;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  min-height: 200px;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  background-color: #448aff;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.aviso-notificacion {
+  flex: 50%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.titulo-derecha {
+  flex: 25%;
+  align-items: flex-end;
+  padding-right: 15px;
+}
+.enlaces {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+}
+
+.but-main {
+  max-width: 200px;
+  margin: 5px 0 5px 0;
+}
+
+.search-buttons {
+  color: white;
+  border-radius: 6px;
+  border: solid #1a6eff;
+  background-color: #1a6eff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.search-buttons:hover {
+  background-color: #0a4fc2;
+  border: solid #0a4fc2;
+}
+
+.search-buttons:active {
+  background-color: #083a91;
+  border: solid #083a91;
+}
+
+.informe-teo {
+  flex: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.informe-teo img {
+  height: 150px;
+  width: 150px;
+}
+
+.informe-teo p {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-anchor {
+  text-decoration: none;
+  color: red;
+  font-size: 32px;
+  margin: 10px;
+}
+
+/* 
+ * Código css que da estilo a la segunda sección del maín
+ * corresponde con avisos e notificacions.
+ */
+.segunda-cabecera {
+  flex: 100%;
+  display: flex;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+}
+
+.izquierda {
+  flex: 75%;
+  margin-top: 20px;
+}
+
+.derecha {
+  flex: 25%;
+  margin-top: 20px;
+}
+
+.calendario {
+  margin: 0 0 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+}
+
+.calendario p {
+  display: flex;
+}
+
+.img-calendario {
+  height: 100%;
+  width: 100%;
+}
+
+.parte-de-arriba {
+  flex: 100%;
+  display: flex;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  margin-left: 15px;
+}
+
+.parte-de-abajo {
+  flex: 100%;
+  display: flex;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  margin-left: 15px;
+}
+
+/* margenes y texto justificado para las notificaciones */
+.noticia {
+  padding: 0 30px 8px 0;
+  text-align: justify;
+}
+
+.eventos-destacados {
+  background-color: #448aff;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.eventos {
+  display: flex;
+  flex-direction: row;
+}
+
+.evento {
+  flex: 20%;
+  background-color: #448aff;
+  margin: 10px 0 10px 0;
+  padding: 15px 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  color: white;
+}
+
+.space {
+  margin-right: 20px;
+}
+
+.evento p {
+  display: flex;
+}
+.date {
+  flex: 50%;
+  text-align: right;
+}
+.img-event {
+  height: 250px;
+  width: 100%;
+  border: solid black;
+}
+
+.ver-todos {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
