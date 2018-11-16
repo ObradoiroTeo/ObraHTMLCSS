@@ -52,7 +52,8 @@
 }
 
 .event-tittle {
-  flex: 70%;
+  margin-left: 10px;
+  width: 1000px;
   box-sizing: border-box;
   color: rgb(51, 51, 51);
   font-family: "Roboto";
@@ -64,21 +65,20 @@
 }
 
 .phantom-tag {
-  flex: 4%;
+  flex: 6%;
   padding: 30px;
 }
 
 .tag {
+  flex: block;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
   font-size: 20px;
-  padding: 4px 4px 4px 4px;
+  padding: 12px 0px 12px 0px;
   margin-left: 10px;
   background-color: #f19000;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.tag-position {
-  display: flex;
-  justify-content: flex-end;
+  box-shadow: 4px 2px 3px 1px rgba(0, 0, 0, 0.75);
+  max-width: 300px;
 }
 
 .tag:hover {
@@ -182,4 +182,12 @@
 }
 
 .url-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.other {
+  height: 150px;
+  width: 225px;
 }
