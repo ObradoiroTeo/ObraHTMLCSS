@@ -64,7 +64,7 @@
 }
 
 .phantom-tag {
-  flex: 30%;
+  flex: 4%;
   padding: 30px;
 }
 
@@ -182,7 +182,4 @@
 }
 
 .url-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
