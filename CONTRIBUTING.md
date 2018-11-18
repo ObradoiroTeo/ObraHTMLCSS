@@ -30,7 +30,8 @@
 Simply click github's `fork` button.
 
 ## <a id="clone-locally">2. `clone` locally</a>
-## 
+
+##
 
 Clone your `fork`ed copy, **NOT** the original.
 
@@ -133,3 +134,5 @@ Apply:
 
 - [Egghead: How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 - [What open source project should I contribute to?](https://medium.com/@kentcdodds/what-open-source-project-should-i-contribute-to-7d50ecfe1cb4#.dou36jj12): ...with a nice `debugger;` trick to read source code.
+
+## TESTING
