@@ -136,3 +136,5 @@ Apply:
 - [What open source project should I contribute to?](https://medium.com/@kentcdodds/what-open-source-project-should-i-contribute-to-7d50ecfe1cb4#.dou36jj12): ...with a nice `debugger;` trick to read source code.
 
 ## TESTING
+
+I can contribute too to your PR from my own machine
