@@ -5,12 +5,14 @@
 .header {
   display: flex;
   box-sizing: border-box;
-  border: solid;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  background-color: #448aff;
+  background: linear-gradient(45deg, #448aff, #39cccc, #448aff);
+  background-size: auto auto;
   color: white;
+  font-family: "Roboto", sans-serif;
+  margin: -8px -10px 20px -10px;
 }
 
 .logo {
@@ -19,7 +21,29 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 5px;
+  padding: 10px 25px;
+}
+
+.menu {
+  flex: 50%;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  padding: 0px 10px;
+}
+
+.vacio {
+  flex: 25%;
+}
+
+.anchor:hover {
+  color: white;
+  background-color: transparent;
+  border-bottom: solid medium white;
+  padding-bottom: 12px;
 }
 
 .inicio {
@@ -49,31 +73,33 @@
 .tittle-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .event-tittle {
+  display: flex;
+  border: 1px solid;
   margin-left: 10px;
-  width: 1000px;
-  box-sizing: border-box;
+  padding-left: 20px;
+  width: 800px;
   color: rgb(51, 51, 51);
   font-family: "Roboto";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  padding: 0px 100px 0px 100px;
+  font-size: 30px;
+  font-weight: 100;
+  align-items: center;
 }
 
 .phantom-tag {
-  flex: 6%;
   padding: 30px;
 }
 
 .tag {
+  font-family: "Confortaa", cursive;
   flex: block;
   text-align: center;
-  border-radius: 10px 10px 10px 10px;
-  font-size: 20px;
-  padding: 12px 15px 12px 15px;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 10px;
   margin-left: 10px;
   background-color: #f19000;
   box-shadow: 4px 2px 3px 1px rgba(0, 0, 0, 0.75);
@@ -100,9 +126,12 @@
 }
 
 .date {
-  color: #333333;
   display: flex;
   flex-direction: column;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 100;
   border-top: 1px #888 solid;
   border-bottom: 1px #888 solid;
   padding: 23px 0px 20px 0px;
@@ -113,13 +142,21 @@
 }
 
 .resumen-event-summary {
-  color: #333333;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 100;
   padding: 0px 20px 0px 0px;
 }
 
+.relation-tags {
+  color: #0a4fc2;
+}
+
 .keywords {
+  font-family: "Roboto";
   color: #333333;
-  font-size: 12px;
+  font-size: 11px;
   margin-top: 30px;
 }
 
@@ -146,29 +183,27 @@
 .titulo-del-evento {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
-  color: rgb(51, 51, 51);
   font-family: "Roboto";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 39.6px;
+  color: rgb(51, 51, 51);
+  font-size: 30px;
+  font-weight: 100;
 }
 
 .description-event {
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 100;
   padding: 0px 80px;
 }
 
 .otras-imagenes {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
-  color: rgb(51, 51, 51);
   font-family: "Roboto";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 39.6px;
+  color: rgb(51, 51, 51);
+  font-size: 30px;
+  font-weight: 100;
 }
 
 .url-container {
