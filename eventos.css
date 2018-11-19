@@ -124,18 +124,21 @@
 /*EVENTO*/
 
 .line {
-  margin: 0px 50px;
-  padding: 1px 1px;
-  background: linear-gradient(45deg, #448aff, #39cccc, #448aff);
+  margin: 30px 400px;
+  padding: 2px 2px;
+  background: linear-gradient(45deg, #003366, #39cccc, #003366);
 }
 .events {
   display: flex;
-  background-color: white;
+  background-color: #f2f2f2;
+  box-shadow: 10px 10px 24px -4px rgba(0, 0, 0, 0.75);
   color: #0a4fc2;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   margin: 5px 35px 5px 35px;
   padding: 14px 20px;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 h3 {
@@ -143,9 +146,22 @@ h3 {
   font-size: 25px;
 }
 
+.catg {
+  border: solid;
+  border-radius: 6px;
+  color: #f2f2f2;
+  background-color: #0a4fc2;
+  padding: 5px;
+}
+
 .date {
   color: #0a4fc2;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.date2 {
+  color: #0a4fc2;
+  font-size: 18px;
 }
 
 .info {
@@ -176,14 +192,6 @@ h3 {
   justify-content: flex-end;
   margin: 10px 10px 20px 10px;
 }
-
-/*.image1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 300px;
-}*/
 
 .img {
   margin: 30px 15px;
