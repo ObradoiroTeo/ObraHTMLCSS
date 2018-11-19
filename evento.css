@@ -60,7 +60,6 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
-  line-height: 39.6px;
   padding: 0px 100px 0px 100px;
 }
 
@@ -74,19 +73,10 @@
   text-align: center;
   border-radius: 10px 10px 10px 10px;
   font-size: 20px;
-  padding: 12px 0px 12px 0px;
+  padding: 12px 15px 12px 15px;
   margin-left: 10px;
   background-color: #f19000;
   box-shadow: 4px 2px 3px 1px rgba(0, 0, 0, 0.75);
-  max-width: 300px;
-}
-
-.tag:hover {
-  background-color: #faa629;
-}
-
-.tag:active {
-  background-color: #f19000;
 }
 
 .main-event {
