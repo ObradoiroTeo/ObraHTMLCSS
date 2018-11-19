@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Listado de Eventos</title>
+    <link rel="stylesheet" href="eventos.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="https://www.teo.gal"
+          ><img src="./images/logo_concello_teo_pequeno.png" />
+        </a>
+      </div>
+      <div class="menu">
+        <a class="anchor" href="https://www.teo.gal">Inicio</a>
+        <a class="anchor" href="https://www.teo.gal">Cultura</a>
+        <a class="anchor" href="https://www.teo.gal">Deporte</a>
+        <a class="anchor" href="https://www.teo.gal">Avisos</a>
+        <a class="anchor" href="https://www.teo.gal">Contacto</a>
+      </div>
+      <div class="vacio"></div>
+    </header>
+
+    <h2 class="page-title">Título da páxina</h2>
+
+    <div class="search-container">
+      <button class="search-buttons all-button">Todos</button>
+      <select class="categories">
+        <option value="" selected>Categorías</option>
+        <option value="">Cultura</option>
+        <option value="">Deporte</option>
+        <option value="">Otros</option>
+      </select>
+      <div class="dates">
+        <label for="init-date">Data de inicio</label>
+        <input id="init-date" type="date" />
+        <span class="init-calendar" role="img" aria-label="Calendar_spiral">
+          🗓
+        </span>
+        <label for="final-date">Data de fin</label>
+        <input id="final-date" type="date" /><span
+          class="final-calendar"
+          role="img"
+          aria-label="Calendar_spiral"
+        >
+          🗓
+        </span>
+      </div>
+      <button class="search-buttons filter-button">Filtrar</button>
+    </div>
+    <div class="line"></div>
+    <div class="events">
+      <div class="first-column-event">
+        <span class="image1"
+          ><img class="img" src="./images/queimada.png" alt="logo"
+        /></span>
+      </div>
+      <div class="second-column-event">
+        <h3>Evento1</h3>
+        <span class="date">dd/mm/aa</span>
+        <p class="event-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          enim dolorem, eligendi sequi officiis, consequuntur dignissimos
+          aliquid iure, itaque nostrum ut provident aut veritatis culpa nulla
+          non ipsa perspiciatis accusamus!
+        </p>
+        <button class="info" href="">Saber máis</button>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="events">
+      <div class="first-column-event">
+        <span class="image1"
+          ><img class="img" src="./images/magosto.jpg" alt="logo"
+        /></span>
+      </div>
+      <div class="second-column-event">
+        <h3>Evento2</h3>
+        <span class="date">dd/mm/aa</span>
+        <p class="event-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          enim dolorem, eligendi sequi officiis, consequuntur dignissimos
+          aliquid iure, itaque nostrum ut provident aut veritatis culpa nulla
+          non ipsa perspiciatis accusamus!
+        </p>
+        <button class="info" href="">Saber máis</button>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="events">
+      <div class="first-column-event">
+        <span class="image1"
+          ><img class="img" src="./images/futbol.jpeg" alt="logo"
+        /></span>
+      </div>
+      <div class="second-column-event">
+        <h3>Evento3</h3>
+        <span class="date">dd/mm/aa</span>
+        <p class="event-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          enim dolorem, eligendi sequi officiis, consequuntur dignissimos
+          aliquid iure, itaque nostrum ut provident aut veritatis culpa nulla
+          non ipsa perspiciatis accusamus!
+        </p>
+        <button class="info" href="">Saber máis</button>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="events">
+      <div class="first-column-event">
+        <span class="image1"
+          ><img class="img" src="./images/muiñeira.jpeg" alt="logo"
+        /></span>
+      </div>
+      <div class="second-column-event">
+        <h3>Evento4</h3>
+        <span class="date">dd/mm/aa</span>
+        <p class="event-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          enim dolorem, eligendi sequi officiis, consequuntur dignissimos
+          aliquid iure, itaque nostrum ut provident aut veritatis culpa nulla
+          non ipsa perspiciatis accusamus!
+        </p>
+        <button class="info" href="">Saber máis</button>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <section class="pagination-container">
+      <div class="empty-div"></div>
+      <div class="pagination-buttons">
+        <button class="search-buttons init-btn">Inicio</button>
+        <button class="arrow-button left-btn">«</button>
+        <button class="arrow-button right-btn">»</button>
+        <button class="search-buttons fin-btn">Fin</button>
+      </div>
+    </section>
+
+    <footer class="logo-container">
+      <span class="images"
+        ><img src="./images/union-europea.jpg" alt="logo"
+      /></span>
+      <span class="images"
+        ><img src="./images/concello-santiago.jpg" alt="logo"
+      /></span>
+      <span class="images"
+        ><img src="./images/logo_concello_teo_pequeno.png" alt="logo"
+      /></span>
+      <span class="images"><img src="./images/galicia.gif" alt="logo"/></span>
+      <span class="images"
+        ><img src="./images/xunta-galicia.jpg" alt="logo"
+      /></span>
+    </footer>
+  </body>
+</html>
