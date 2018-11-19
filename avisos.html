@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pantalla de avisos</title>
+    <link href="./avisos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="https://www.teo.gal"
+          ><img src="./images/logo_pequeno.png" /> </a
+        ><span class="inicio">Inicio</span>
+      </div>
+      <div class="menu">
+        <a class="anchor separador" href="https://www.teo.gal">Cultural</a>
+        <a class="anchor separador" href="https://www.teo.gal">Deportivos</a>
+        <a class="anchor separador" href="https://www.teo.gal">Avisos</a>
+        <a class="anchor" href="https://www.teo.gal">Contacto</a>
+      </div>
+      <div class="vacio"></div>
+    </header>
+
+    <div class="calendar">
+      <h1 class="list">Listado de avisos e notificacións</h1>
+
+      <div class="search-container">
+        <button class="search-buttons all-button">Todos</button>
+        <div class="dates">
+          <label for="init-date">Data de inicio</label>
+          <input id="init-date" type="date" />
+          <span class="init-calendar" role="img" aria-label="Calendar_spiral">
+            🗓
+          </span>
+          <label for="final-date">Data de fin</label>
+          <input id="final-date" type="date" /><span
+            class="final-calendar"
+            role="img"
+            aria-label="Calendar_spiral"
+          >
+            🗓
+          </span>
+        </div>
+        <button class="search-buttons filter-button">Filtrar</button>
+      </div>
+    </div>
+
+    <div class="notices container">
+      <div class="notices notice1">
+        <div class="title">
+          <h3>Aviso 1</h3>
+          <a class="fecha">11/11/2018 </a>
+        </div>
+        <div class="alert-bottom-container">
+          <img
+            style="width:90px; height:90px;"
+            src="./images/Letra- X.png"
+            alt="imagen de prueba"
+          />
+          <p class="notice-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+            mollitia quo a commodi doloribus quisquam ipsa perferendis sunt
+            accusamus odit!
+          </p>
+        </div>
+      </div>
+
+      <div class="notices notice2">
+        <div class="title">
+          <h3>Aviso 2</h3>
+          <a class="fecha">11/11/2018 </a>
+        </div>
+        <div class="alert-bottom-container">
+          <img
+            style="width:90px; height:90px;"
+            src="./images/Letra- X.png"
+            alt="imagen de prueba"
+          />
+          <p class="notice-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+            mollitia quo a commodi doloribus quisquam ipsa perferendis sunt
+            accusamus odit!
+          </p>
+        </div>
+      </div>
+
+      <div class="notices notice3">
+        <div class="title">
+          <h3>Aviso 3</h3>
+          <a class="fecha">11/11/2018</a>
+        </div>
+        <div class="alert-bottom-container">
+          <img
+            style="width:90px; height:90px;"
+            src="./images/Letra- X.png"
+            alt="imagen de prueba"
+          />
+          <p class="notice-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+            mollitia quo a commodi doloribus quisquam ipsa perferendis sunt
+            accusamus odit!
+          </p>
+        </div>
+      </div>
+
+      <div class="notices notice4">
+        <div class="title">
+          <h3>Aviso 4</h3>
+          <a class="fecha">11/11/2018</a>
+        </div>
+        <div class="alert-bottom-container">
+          <img
+            style="width:90px; height:90px;"
+            src="./images/Letra- X.png"
+            alt="imagen de prueba"
+          />
+          <p class="notice-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nisi
+            unde accusantium nobis in fugiat maiores laborum neque. Reiciendis,
+            distinctio.
+          </p>
+        </div>
+      </div>
+
+      <div class="notices notice5">
+        <div class="title">
+          <h3>Aviso 5</h3>
+          <a class="fecha">11/11/2018</a>
+        </div>
+        <div class="alert-bottom-container">
+          <img
+            style="width:90px; height:90px;"
+            src="./images/Letra- X.png"
+            alt="imagen de prueba"
+          />
+          <p class="notice-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            dolorum ullam incidunt officiis! Expedita sint deserunt eveniet.
+            Laborum, in numquam!
+          </p>
+        </div>
+      </div>
+
+      <div class="notices notice6">
+        <div class="title">
+          <h3>Aviso 6</h3>
+          <a class="fecha">11/11/2018</a>
+        </div>
+        <div class="alert-bottom-container">
+          <img
+            style="width:90px; height:90px;"
+            src="./images/Letra- X.png"
+            alt="imagen de prueba"
+          />
+          <p class="notice-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            dolorum ullam incidunt officiis! Expedita sint deserunt eveniet.
+            Laborum, in numquam!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="pagination-container">
+      <div class="empty-div"></div>
+      <div class="pagination-buttons">
+        <button class="search-buttons init-btn">Inicio</button>
+        <button class="arrow-button left-btn">«</button>
+        <button class="arrow-button right-btn">»</button>
+        <button class="search-buttons fin-btn">Fin</button>
+      </div>
+    </section>
+  </body>
+</html>
